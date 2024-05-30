@@ -1,16 +1,18 @@
-const AllFood = (props) => {
+/* eslint-disable react/prop-types */
+const AllFood = ({ FoodData }) => {
   return (
     <div>
       <div className=" bg-green-900">
-        <h1>{props.FoodData}</h1>
-        {/* <ul>
+        <ul>
           {FoodData.map((item) => (
             <li key={item.id}>{`${item.Day} - ${item.Time} - ${item.Food}`}</li>
           ))}
-        </ul> */}
+        </ul>
       </div>
     </div>
   );
 };
+
+// AllFood.propTypes = { FoodData: PropTypes.arrayOf() }
 
 export default AllFood;

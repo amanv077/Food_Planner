@@ -85,8 +85,7 @@ const NewFood = () => {
           </button>
         </div>
       </form>
-      {/* <AllFood FoodData={FoodData} Day={Day} AddFood={AddFood} /> */}
-      <AllFood FoodData="FoodData" />
+      <AllFood FoodData={FoodData} />
     </div>
   );
 };
